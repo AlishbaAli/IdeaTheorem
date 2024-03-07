@@ -1,0 +1,33 @@
+.nav{
+    background-color: #252F3D;
+    display: 'flex';
+    justify-content: space-between;
+    height: 56.83px;
+  
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 410px) {
+    .img {
+      max-width: 148px;
+      height: auto; 
+      margin-top: 16px;
+      margin-left: 17px;
+     
+    }
+  }
+  
+  /* Media query for larger screens */
+  @media (min-width: 1200px) {
+    .img {
+      max-width: 294px;
+      height: auto; 
+      margin-top: 12px;
+      margin-left: 166px;
+    }
+  }
