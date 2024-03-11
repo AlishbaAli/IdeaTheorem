@@ -1,0 +1,49 @@
+.container {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 700px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+  }
+ 
+
+  @media (max-width: 410px) {
+    .container {
+      width: 358px;
+      padding: 16px;
+      margin-top: 40px; /* Adjust the margin as needed */
+    }
+  }
+  
+  /* Media query for larger screens */
+  @media (min-width: 1200px) {
+    h3{
+      margin-top: 2%;
+      margin-left: 35%;
+  }
+  }
+  
+  .innercontainer {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+   
+  }
+ .form{
+    display: flex;
+    flex-direction: column;
+   
+   
+ }
+ label{
+    margin-bottom: 5px;
+ }
+ 
+
